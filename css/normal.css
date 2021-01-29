@@ -1,0 +1,26 @@
+body
+{
+background-image:url(https://mcdrme.gitee.io/web/img/background.png);
+background-repeat:no-repeat;
+background-size:100% auto;
+}
+div
+{
+color:white;
+background-color: rgba(214, 205, 205, 0.322);
+border-radius: 10px;
+box-shadow:10px 10px  10px 1px rgb(0,0,0,.3);
+padding:20px;
+animation: backgroundrainbow 120s infinite
+}
+@keyframes backgroundrainbow
+{
+0%{background-color:rgba(255,0,0,.332);}
+14%{background-color:rgba(255,165,0,.332);}
+28%{background-color:rgba(255,255,0,.332);}
+44%{background-color:rgba(0,255,0,.332);}
+58%{background-color:rgba(0,127,255,.332);}
+72%{background-color:rgba(0,0,255,.332);}
+86%{background-color:rgba(139,0,255,.332);}
+100%{background-color:rgba(255,0,0,.332);}
+}
