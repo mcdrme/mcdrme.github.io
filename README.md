@@ -1,2 +1,1 @@
 # mcdrme.github.io
-web
